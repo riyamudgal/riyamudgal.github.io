@@ -1,0 +1,280 @@
+.u-section-1 {
+  background-image: none;
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 1174px;
+}
+
+.u-section-1 .u-shape-1 {
+  height: 1114px;
+  width: 262px;
+  margin: 0 auto 0 0;
+}
+
+.u-section-1 .u-image-1 {
+  height: 774px;
+  width: 1064px;
+  margin: -1045px 0 0 auto;
+}
+
+.u-section-1 .u-image-2 {
+  min-height: 469px;
+  width: 663px;
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("images/images.png");
+  background-position: 50% 50%;
+  margin: -196px 80px 60px auto;
+}
+
+.u-section-1 .u-container-layout-1 {
+  padding: 16px 0;
+}
+
+.u-section-1 .u-text-1 {
+  animation-duration: 1000ms;
+  font-weight: 700;
+  font-size: 6rem;
+  margin: 117px 26px 0 50px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-image-1 {
+    height: 684px;
+    width: 871px;
+  }
+
+  .u-section-1 .u-image-2 {
+    margin-top: -106px;
+    margin-bottom: 51px;
+  }
+
+  .u-section-1 .u-text-1 {
+    text-transform: none;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 1039px;
+  }
+
+  .u-section-1 .u-shape-1 {
+    height: 979px;
+  }
+
+  .u-section-1 .u-image-1 {
+    height: 565px;
+    width: 663px;
+    margin-top: -910px;
+  }
+
+  .u-section-1 .u-image-2 {
+    width: 558px;
+    margin-top: -95px;
+    margin-right: 53px;
+    margin-bottom: 66px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 843px;
+  }
+
+  .u-section-1 .u-shape-1 {
+    height: 783px;
+  }
+
+  .u-section-1 .u-image-1 {
+    height: 391px;
+    width: 498px;
+    margin-top: -714px;
+  }
+
+  .u-section-1 .u-image-2 {
+    width: 415px;
+    margin-top: -52px;
+    margin-right: 20px;
+    margin-bottom: 63px;
+  }
+
+  .u-section-1 .u-container-layout-1 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 671px;
+  }
+
+  .u-section-1 .u-shape-1 {
+    height: 611px;
+    width: 205px;
+  }
+
+  .u-section-1 .u-image-1 {
+    height: 274px;
+    width: 298px;
+    margin-top: -562px;
+  }
+
+  .u-section-1 .u-image-2 {
+    width: 271px;
+    margin-top: -35px;
+    margin-right: 0;
+    margin-bottom: 57px;
+  }
+}.u-section-2 {
+  background-image: none;
+}
+
+.u-section-2 .u-sheet-1 {
+  min-height: 447px;
+}
+
+.u-section-2 .u-text-1 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  animation-duration: 1000ms;
+  width: 673px;
+  font-size: 1.5rem;
+  margin: 41px auto 0;
+}
+
+.u-section-2 .u-text-2 {
+  animation-duration: 1000ms;
+  font-family: abril-fatface;
+  margin: 28px 63px 60px 124px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-2 .u-text-2 {
+    font-weight: normal;
+    width: 673px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-2 .u-text-1 {
+    width: 540px;
+  }
+
+  .u-section-2 .u-text-2 {
+    width: 540px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-2 .u-text-1 {
+    width: 340px;
+  }
+
+  .u-section-2 .u-text-2 {
+    width: 340px;
+  }
+}.u-section-3 {
+  background-image: url("images/how-to-treat-adhd-with-medication-therapy-options-doctor-patient-hands-GettyImages-1081947082.jpg");
+  background-position: 50% 50%;
+}
+
+.u-section-3 .u-sheet-1 {
+  min-height: 787px;
+}
+
+.u-section-3 .u-group-1 {
+  width: 457px;
+  min-height: 549px;
+  background-image: none;
+  animation-duration: 1000ms;
+  margin: 169px auto 60px 0;
+}
+
+.u-section-3 .u-container-layout-1 {
+  padding: 30px 50px;
+}
+
+.u-section-3 .u-text-1 {
+  animation-duration: 1000ms;
+  margin: 42px 0 0;
+}
+
+.u-section-3 .u-btn-1 {
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 3px;
+  background-image: none;
+  border-style: none;
+  animation-duration: 1000ms;
+  box-shadow: 5px -5px 40px 0 rgba(128,128,128,1);
+  margin: 69px auto 0 0;
+  padding: 12px 54px 14px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-3 .u-sheet-1 {
+    min-height: 679px;
+  }
+
+  .u-section-3 .u-group-1 {
+    margin-top: 134px;
+  }
+
+  .u-section-3 .u-text-1 {
+    font-weight: normal;
+    line-height: 25.6px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-3 .u-sheet-1 {
+    min-height: 520px;
+  }
+
+  .u-section-3 .u-group-1 {
+    width: 405px;
+  }
+
+  .u-section-3 .u-container-layout-1 {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-3 .u-sheet-1 {
+    min-height: 607px;
+  }
+
+  .u-section-3 .u-group-1 {
+    width: 370px;
+    min-height: 437px;
+    margin-top: 110px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-3 .u-sheet-1 {
+    min-height: 530px;
+  }
+
+  .u-section-3 .u-group-1 {
+    width: 286px;
+    min-height: 420px;
+    margin-bottom: 0;
+    margin-left: -50px;
+  }
+
+  .u-section-3 .u-container-layout-1 {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}
