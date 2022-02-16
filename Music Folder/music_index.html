@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html lang="en">        <!-- lang attribute specifies the language of the element's content. Common examples are "en" for English-->
+<head>
+	<title>Music Player</title>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+
+	<!-- css file-->
+	<link rel="stylesheet" type="text/css" href="music.css">
+	<!-- The REL attribute is used to define the relationship between the linked file and the HTML document. REL=StyleSheet specifies a persistent or preferred style-->
+</head>
+<body>
+	<div class="player">
+		<div class="details">
+			<div class="now-playing"> Playing x of y</div>
+			<div class="track-art"></div>
+			<div class="track-name">Track Name</div>
+			<div class="track-artist">Track Artist</div>
+		</div>
+
+		<!-- Define the section for displaying track buttons -->
+		<div class="buttons">
+			<div class="prev-track" onclick="preTrack()">
+				<i class="fa fa-step-backward fa-2x"></i>  <!-- "fa fa-step-backward" is used for adding backward icon and fa-2x is for size-->
+			</div>
+			<div class="playpause-track" onclick="playpauseTrack()">
+				<i class="fa fa-play-circle fa-5x"></i>    <!-- "fa fa-play-circle" is used for adding play and pause button and fa-5x is for size-->
+			</div>
+			<div class="next-track" onclick="nextTrack()">
+			    <i class="fa fa-step-forward fa-2x"></i><!-- "fa fa-step-forward" is used for adding forward icon and fa-2x is used for size--> 			
+			</div>
+		</div>
+
+		<!-- song slider-->
+		<div class="slider_container">
+			<div class="current-time">00:00</div>
+			<input type="range" min="0" max="100" value="0" class="seek_slider" onchange="seekTo()">
+			<div class="total-duration">00:00</div>
+		</div>
+
+		<!-- for volume slider-->
+		<div class="slider-container">
+			<i class="fa fa-volume-down"></i>    <!-- this is for volume down button, with one arc in front of speaker-->
+			<input type="range" min="0" max="100" value="50" class="volume_slider" onchange="setVolume()">
+			<i class="fa fa-volume-up"></i>
+		</div>
+		
+	</div>
+
+
+	<!-- Javascript file-->
+	<script src="music_js.js"></script>
+</body>
+</html>

@@ -1,0 +1,149 @@
+body
+{
+	background-color:  palevioletred;
+	transition: background-color .5s;
+}
+
+.player 
+{
+	height: 95vh;       /* height of player*/
+	display: flex;     /*arraning the icons and sliders in horizontal manner*/
+	align-items: center;     /*arraning the text(3 lines) and icons in center(left center)*/
+	flex-direction: column;         /*arraning the text(3 lines) and icons in center(top center) in vertical order*/
+	justify-content: center;         /*arraning the above contents in thte center of page*/
+}
+
+
+.details
+{
+	display: flex;     /*converting 3 different lines of details in one line*/
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	margin-top: 25px;            /* contents slightly shifts towards down side*/
+}   
+
+.track-art
+{
+	margin: 25px;            /*gap between Playing x of y    Track Name Track Artist*/
+	height: 250px;           /* icons and sliders shifts downside*/
+	width: 250px;             /* much wider gap between playin a of y and Track name... */
+	background-image: url("https://cdn.wallpapersafari.com/41/12/qIrP9T.jpg");          /*image is so large(not properly displayed) but fitted between y and track*/
+    background-size:  cover;          /* fitted in a perfect sqaure*/
+    background-position: center;
+    border-radius: 15%;              /*rounded corner*/
+}
+
+.now-playing
+{
+	font-size: 1rem;                  /*changing the font of playing x of y*/
+}
+
+.track-name
+{
+	font-size: 3rem;                 /*changing the font of track-name*/
+}
+
+.track-artist
+{
+    font-size: 1.5rem;
+}
+
+/* Using flex with the row direction to align items in a horizontal direction */
+.buttons 
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.playpause-track, 
+.pre-track,
+.next-track
+{
+    padding: 25px;
+    opacity: 0.8;
+    transition: opacity .2s;                  /* Smoothly transition the opacity */
+}
+
+/* Change the opacity when mouse is hovered */
+
+.playpause-track:hover,
+.pre-track:hover,
+.next-track:hover
+{   
+	opacity: 1.0;
+}
+
+.slider_container
+{
+	width: 100%;
+	max-width: 400px;           /*seek slider shifts left side*/
+	display:  flex;              /*volume slider shifts upwards, towards seek slider*/
+	justify-content: center;        /*seek slider comes in center*/
+	align-items: center;
+}
+
+
+/*-webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look*/
+.seek_slider, 
+.volume_slider
+{
+	-webkit-appearance: none;           /*before this line, slides were more good, this line gives white strip type*/
+	-moz-appearance: none;
+	appearance:  none;
+	height: 5px;                        /* decreased the height of sliders*/
+	background: black;                   /* background color of sliders is black*/
+	opacity: 0.7;
+	-webkit-transition: .2s;
+	transition: opacity .2s;
+}
+
+.seek_slider::-webkit-slider-thumb,                 /*sliding object styling*/
+.volume_slider::-webkit-slider-thumb 
+{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 15px;                       /* width of sliding object/cursor*/
+  height: 15px;                       /* height of sliding object/cursor*/
+  background: white;                  /* background color of sliding object/cursor*/
+  cursor: pointer;
+  border-radius: 50%;                  /* turns into solids of white color*/
+}
+
+/* Change the opacity when mouse is hovered */
+.seek_slider:hover,
+.volume_slider:hover 
+{
+  opacity: 1.0;
+}
+
+.seek_slider
+{
+	width: 60%;                      /*is used to increase the width of seek slider as compared to volume slider*/
+}
+
+.volume_slider
+{
+	width: 30%;
+}
+
+.current-time,
+.total-duration 
+{
+  padding: 10px;
+}
+
+i.fa-volume-down,                 /* setting volume icons with equal paddings left and right side of volume slider*/
+i.fa-volume-up {
+  padding: 10px;
+}
+
+i.fa-play-circle,
+i.fa-pause-circle,
+i.fa-step-forward,
+i.fa-step-backward {
+  cursor: pointer;
+}
+
