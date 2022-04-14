@@ -1,0 +1,153 @@
+
+.container {
+  /*position: relative;*/
+  width: 100%;
+  /*max-width: 400px;*/
+}
+
+
+.container .btn1 {
+  position: absolute;
+  border: none;
+  color: black;
+  font-family: cursive;
+  font-size: 25px;
+  margin-top: 100px;
+  margin-left: 100px;
+  padding: 3px 3px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.5s;
+  box-shadow: 0 6px 6px rgba(51, 102, 255, 0.3);
+  
+  }
+
+
+  .container .btn1:hover {
+  background-color: #1e6ca8;
+  color: white;
+}
+
+  .container .btn2 {
+  position: absolute;
+  border: none;
+  color: black;
+  font-family: cursive;
+  font-size: 25px;
+  margin-top: 150px;
+  margin-left: 100px;
+  padding: 3px 3px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.5s;
+  box-shadow: 0 6px 6px rgba(77, 121, 255, 0.3);
+  
+  }
+
+  .container .btn2:hover {
+  background-color: #1e6ca8;
+  color: white;
+}
+
+  .container .btn3 {
+  position: absolute;
+  border: none;
+  color: black;
+  font-family: cursive;
+  font-size: 25px;
+  margin-top: 200px;
+  margin-left: 100px;
+  padding: 3px 3px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.5s;
+  box-shadow: 0 6px 6px rgba(77, 121, 255, 0.3);
+  
+  }
+
+  .container .btn3:hover {
+  background-color: #1e6ca8;
+  color: white;
+}
+
+  .container .btn4 {
+  position: absolute;
+  border: none;
+  color: black;
+  font-family: cursive;
+  font-size: 25px;
+  margin-top: 250px;
+  margin-left: 100px;
+  padding: 3px 3px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.5s;
+  box-shadow: 0 6px 6px rgba(77, 121, 255, 0.3);
+  }
+
+  .container .btn4:hover {
+  background-color: #1e6ca8;
+  color: white;
+}
+
+
+.container .btn5 {
+  position: absolute;
+  border: none;
+  color: black;
+  font-family: cursive;
+  font-size: 25px;
+  margin-top: 300px;
+  margin-left: 100px;
+  padding: 3px 3px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.5s;
+  box-shadow: 0 6px 6px rgba(77, 121, 255, 0.3);
+  }
+
+  .container .btn5:hover {
+  background-color: #1e6ca8;
+  color: white;
+}
+
+
+
+  .container .btn6 {
+  position: absolute;
+  border: none;
+  color: black;
+  font-family: cursive;
+  font-size: 25px;
+  margin-top: 350px;
+  margin-left: 100px;
+  padding: 3px 3px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.5s;
+  box-shadow: 0 6px 6px rgba(77, 121, 255, 0.3);
+  }
+
+
+
+.container .btn6:hover {
+  background-color: #1e6ca8;
+  color: white;
+}
+
+
+footer {
+  margin-top: 460px;                     /*done automatically to be fit on page*/
+  text-align: center;
+  padding: 5px;
+  background-color: #1e6ca8;
+  color: white;
+  display: block;
+  font-size: 24px;
+}
